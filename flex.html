@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="Home">
+      <div>
+        <h1 style="margin: 0">Learn With Us</h1>
+        <p style="margin: 0">Welcome to our Learning Platform</p>
+      </div>
+      <nav>
+        <a href="#Home">Home</a> | <a href="#courses">Courses</a> |
+        <a href="#About">About</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <section class="container">
+        <div>
+          <h1>Build Your Skills with Us</h1>
+          <p>
+            We provide quality learning resources and practical examples to help
+            you learn HTML and Web <br />
+            Development step by step.<mark>HTML</mark> is the
+            <mark>foundation</mark> of every Website.
+          </p>
+
+          <p>
+            Today's date: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27 October 2026
+          </p>
+        </div>
+        <div>
+          <figure>
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqJjHjbMV7nzir_VsSXobmAX9G1fAdmxKB4OGaSe3Vzn7PMRYi"
+              alt="background"
+            />
+            <figcaption>
+              <p>figure 1: A Beautiful mountain View</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <hr />
+
+      <section id="About">
+        <div>
+          <h3>1. About Our Institute</h3>
+          <p>
+            We offer different courses to help student build their career <br />
+            in technology. Our focus is on practical learning and real <br />
+            world projects.
+          </p>
+        </div>
+        <div>
+          <h3>2.Our Courses(Unordered List)</h3>
+          <ul>
+            <li>Full stack web development</li>
+            <li>python programming</li>
+            <li>Data Analytics</li>
+            <li>Machine learning</li>
+            <li>Cloud Computing</li>
+          </ul>
+        </div>
+        <div>
+          <h3>3.Learning Steps(Ordered List)</h3>
+          <ol>
+            <li>Learn HTML</li>
+            <li>practices with examples</li>
+            <li>Build small projects</li>
+            <li>Improve your skills</li>
+            <li>Start your career</li>
+          </ol>
+        </div>
+      </section>
+      <hr />
+
+      <section id="courses">
+        <div>
+          <h3>4. Description list</h3>
+          <dl>
+            <dt><b>HTML</b></dt>
+            <dd>Hyper text markup language used to create web pages.</dd>
+            <dt><b>CSS</b></dt>
+            <dd>Used to style and design web pages.</dd>
+            <dt><b>JavaScript</b></dt>
+            <dd>Used to add interactive to web pages.</dd>
+          </dl>
+        </div>
+        <div>
+          <h3>5. Student Data (Table)</h3>
+          <caption>
+            <b>Table 1: Student Marks </b>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Aditi</td>
+                <td>85</td>
+                <td>80</td>
+                <td>78</td>
+                <td>243</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Rohan</td>
+                <td>90</td>
+                <td>88</td>
+                <td>92</td>
+                <td>270</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Piyush</td>
+                <td>75</td>
+                <td>70</td>
+                <td>80</td>
+                <td>275</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Neha</td>
+                <td>95</td>
+                <td>92</td>
+                <td>88</td>
+                <td>275</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <hr />
+
+      <section class="Audio_Video-Section">
+        <div>
+          <h3>6. Audio Section</h3>
+          <p>Listen to the sample audio.</p>
+          <audio src="audio.mp3" controls></audio>
+        </div>
+        <div class="dk">
+          <h3>7. Video Section</h3>
+          <p>Watch the sample Video:</p>
+        </div>
+        <div>
+          <video src="video.mp4" controls width="400px" height="300px"></video>
+        </div>
+      </section>
+      <hr />
+
+      <section id="contact">
+        <div>
+          <h2>8. Details and Summary</h2>
+
+          <details>
+            <summary>Course Details</summary>
+            <p>Our Full Stack course includes:</p>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>Real world projects</li>
+            </ul>
+          </details>
+        </div>
+
+        <div id="frm">
+          <h3>9. Contact Form</h3>
+          <form>
+            <label for="name">Full Name:</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              id="name"
+              name="name"
+              style="width: 60%"
+            /><br />
+            <label for="email"> Email: </label
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input
+              type="email"
+              placeholder="Enter your email"
+              id="email"
+              name="email"
+              style="width: 60%"
+            /><br />
+            <label for="course">Course: </label
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="course" id="course" style="width: 60%">
+              <option value="" disabled selected>select course</option>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">JavaScript</option>
+            </select>
+            <br />
+            <label for="message">Message: </label
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea
+              id="message"
+              name="message"
+              cols="30"
+              rows="2"
+              placeholder="Write your message here..."
+              style="width: 60%"
+            ></textarea
+            ><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" /><input type="reset" />
+          </form>
+        </div>
+      </section>
+      <hr />
+    </main>
+
+    <footer>
+      <div>2026 Learn With Us. All rights reserved.</div>
+      <div>
+        <a href="#">Privacy Policy |</a>
+        <a href="#">Terms & Conditions |</a>
+      </div>
+    </footer>
+  </body>
+</html>

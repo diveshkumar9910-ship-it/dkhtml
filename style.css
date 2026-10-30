@@ -1,0 +1,92 @@
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+            background-color: #49366F;
+color: #FFFFFF;
+padding: 10px;
+}
+a{
+  color: #FFFFFF;  
+}
+
+#sk{
+    font-size: 30px;
+}
+.container{
+display: flex;
+justify-content: space-between;
+margin: 5px;
+padding: 5px;
+            background-color: #302354;
+              color: #FFFFFF;  
+}
+#About{
+display: flex;
+justify-content: space-between;
+margin: 5px;
+padding: 5px;
+            background-color: #F0EBFA;
+}
+div h3{
+    color:#302354;
+}
+ul,ol{
+    list-style-position: inside;
+}
+#courses{
+    display: flex;
+justify-content: space-between;
+margin: 5px;
+padding: 5px;
+background-color: #FFF4D9;
+}
+table{
+    width: 600px;
+        text-align: center;
+}
+table,th,td{
+    border: 1px solid black;
+}
+.Audio_Video-Section{
+display: flex;
+justify-content: space-between;
+background-color: #EAE3F7;
+}
+.dk{
+    margin-left: 200px;
+}
+video{
+    margin-right: 20px;
+}
+input{
+    margin-left: 30px;
+    padding: 5px;
+}
+#contact{
+    display: flex;
+justify-content: space-between;
+margin: 5px;
+padding: 5px;
+            background-color: #b6fb98;
+}
+details{
+border: 1px solid black;
+width: 300px;
+height: 200px;
+padding: 10px;
+background: radial-gradient(yellow,red,blue);
+color:rgb(36, 254, 12);
+}
+footer{
+    display: flex;
+justify-content: space-between;
+            background-color: #302354;
+            color: #FFFFFF;
+            height: 25px;
+            padding: 10px;
+}
+#frm{
+    width: 700px;
+    height: 400px;
+}
