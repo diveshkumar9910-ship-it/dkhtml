@@ -1,10 +1,15 @@
+*{
+margin: 0;
+padding: 0;
+}
 header {
 display: flex;
 justify-content: space-between;
 align-items: center;
-            background-color: #49366F;
+background-color: #49366F;
 color: #FFFFFF;
-padding: 10px;
+padding: 20px;
+margin-bottom: 10px;
 }
 a{
   color: #FFFFFF;  
@@ -16,17 +21,19 @@ a{
 .container{
 display: flex;
 justify-content: space-between;
-margin: 5px;
-padding: 5px;
-            background-color: #302354;
-              color: #FFFFFF;  
+padding: 20px;
+background-color: #302354;
+color: #FFFFFF;  
+margin-top: 10px;
+margin-bottom: 10px;
 }
 #About{
 display: flex;
 justify-content: space-between;
-margin: 5px;
-padding: 5px;
-            background-color: #F0EBFA;
+padding: 20px;
+background-color: #F0EBFA;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 div h3{
     color:#302354;
@@ -35,15 +42,21 @@ ul,ol{
     list-style-position: inside;
 }
 #courses{
-    display: flex;
+display: flex;
 justify-content: space-between;
-margin: 5px;
-padding: 5px;
+padding: 20px;
 background-color: #FFF4D9;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 table{
     width: 600px;
         text-align: center;
+        border-collapse: collapse;
+}
+#cent{
+    font-weight: bolder;
+    text-align: center;
 }
 table,th,td{
     border: 1px solid black;
@@ -52,6 +65,9 @@ table,th,td{
 display: flex;
 justify-content: space-between;
 background-color: #EAE3F7;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 20px;
 }
 .dk{
     margin-left: 200px;
@@ -66,27 +82,41 @@ input{
 #contact{
     display: flex;
 justify-content: space-between;
-margin: 5px;
-padding: 5px;
-            background-color: #b6fb98;
+padding: 20px;
+background-color: #b6fb98;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 details{
 border: 1px solid black;
 width: 300px;
 height: 200px;
-padding: 10px;
+padding: 20px;
 background: radial-gradient(yellow,red,blue);
 color:rgb(36, 254, 12);
 }
 footer{
-    display: flex;
+display: flex;
 justify-content: space-between;
-            background-color: #302354;
-            color: #FFFFFF;
-            height: 25px;
-            padding: 10px;
+background-color: #302354;
+color: #FFFFFF;
+height: 25px;
+padding: 10px;
+margin-top: 10px;
 }
 #frm{
     width: 700px;
     height: 400px;
 }
+dd{
+   padding-left: 40px; 
+}
+details p,ul{
+   padding-left: 40px; 
+}
+details ul{
+    list-style-type: '- ';
+}
+/* details ul li::before {
+  content: '- ';
+} */
