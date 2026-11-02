@@ -3,21 +3,71 @@ margin: 0;
 padding: 0;
 }
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
+/* display: flex; */
+/* justify-content: space-between;
+align-items: center; */
 background-color: #49366F;
 color: #FFFFFF;
 padding: 20px;
 margin-bottom: 10px;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
 }
 a{
   color: #FFFFFF;  
+    text-decoration: none;
 }
-
+#hl{
+    margin-top: 150px;
+}
 #sk{
     font-size: 30px;
 }
+
+        /* button{ */
+            /* display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            text-align: right;
+            position: fixed;
+            bottom: 20px;
+            right: 20px; */
+            /* position: fixed;  Isse button scroll karne par bhi apni jagah se nahi hilega */ 
+            /* bottom: 20px;  Screen ke niche se 20px ki doori */ 
+            /* right: 20px; /* Screen ke daayein (right) se 20px ki doori  */
+            
+            /* Button ko sundar banane ke liye extra styling (optional) */
+            /* padding: 12px 24px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50px; */
+            /* cursor: pointer; */
+            /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); */
+            /* font-size: 16px; */
+            /* z-index: 1000; Isse button hamesha baaki content ke upar dikhega  }*/
+        
+button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+
 .container{
 display: flex;
 justify-content: space-between;
