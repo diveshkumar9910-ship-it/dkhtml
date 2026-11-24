@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="navbar">
+<div>
+    <a href="#" class="brand">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=faces" alt="Logo">
+        <span>codewithrandom</span>
+    </a>
+</div>
+
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#offers">Offer</a>
+        <a href="#destinations">For You</a>
+        <a href="#about">About Us</a>
+        <a href="#signup">Sign Up</a>
+    </nav>
+
+        <div class="nav-actions">
+        <button class="icon-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <button class="icon-btn menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+
+<main class="hero" id="home">
+
+    <div class="hero-shade"></div>
+
+    <section class="intro-panel" id="about">
+
+        <h1>
+            TRAVEL WEBSITE<br>
+            IN HTML, CSS AND<br>
+            JAVASCRIPT
+        </h1>
+
+        <p class="intro-copy">
+            Make the experience of traveling to your dream
+            tourist destination come true with us. We will
+            provide the best experience of your life.
+        </p>
+
+    </section>
+
+        <section class="destination-area" id="destinations">
+
+        <form class="search-box" id="searchForm">
+
+            <input type="search"
+                   id="destinationSearch"
+                   placeholder="Explore Here...">
+
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </form>
+
+                <div class="featured-photo">
+
+            <img
+                 src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?w=1200&auto=format&fit=crop&q=85"
+                 alt="Travel Image">
+
+            <!-- <button class="slide-arrow prev">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <button class="slide-arrow next">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button> -->
+
+        </div>
+
+        <div class="destination-cards">
+
+            <article class="destination-card" data-name="Ubud Bali Indonesia">
+
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=500&auto=format&fit=crop&q=85" alt="Bali">
+
+                <div class="card-info">
+                    <h2>Ubud Bali,<br>Indonesia</h2>
+                    <p>$500</p>
+                    <a href="#offers">Read More 
+                        <!-- <i class="fa-regular fa-circle-right"></i> -->
+                    </a>
+                </div>
+            </article>
+
+            <article class="destination-card" data-name="Raja Ampat Indonesia">
+
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500&auto=format&fit=crop&q=85" alt="Raja Ampat">
+
+                <div class="card-info">
+                    <h2>Raja Ampat,<br>Indonesia</h2>
+                    <p>$600</p>
+                    <a href="#offers">Read More 
+                        <!-- <i class="fa-regular fa-circle-right"></i> -->
+                    </a>
+                </div>
+
+            </article>
+
+            <article class="destination-card" data-name="Komodo Island Indonesia">
+
+                <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=500&auto=format&fit=crop&q=85" alt="Komodo Island">
+
+                <div class="card-info">
+                    <h2>Komodo Island,<br>Indonesia</h2>
+                    <p>$500</p>
+                    <a href="#offers">Read More 
+                        <!-- <i class="fa-regular fa-circle-right"></i> -->
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+
+
+    </section>
+
+    <!-- <div class="slider-dots">
+        <button class="dot active" data-slide="0"></button>
+        <button class="dot" data-slide="1"></button>
+        <button class="dot" data-slide="2"></button>
+        <button class="dot" data-slide="3"></button>
+    </div> -->
+
+    <!-- <div class="round-mark">
+        <i class="fa-solid fa-camera-rotate"></i>
+    </div> -->
+
+</main>
+
+</body>
+</html>
